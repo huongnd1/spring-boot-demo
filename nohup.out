@@ -1,0 +1,27 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.0)
+
+2020-11-24 16:17:38.148  INFO 31273 --- [           main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_275 on mbinnolab.com.vn with PID 31273 (/home/mbinnolab/jenkins/spring-boot-demo/target/demo-0.0.1-SNAPSHOT.jar started by mbinnolab in /home/mbinnolab/jenkins/spring-boot-demo)
+2020-11-24 16:17:38.150  INFO 31273 --- [           main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2020-11-24 16:17:38.785  INFO 31273 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-24 16:17:38.794  INFO 31273 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-24 16:17:38.794  INFO 31273 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-24 16:17:38.830  INFO 31273 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-24 16:17:38.831  INFO 31273 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2020-11-24 16:17:38.969  INFO 31273 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-24 16:17:39.090  INFO 31273 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4710b4f3-b9ab-4f18-bb15-555f63987575
+
+2020-11-24 16:17:39.170  INFO 31273 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@687e99d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@305b7c14, org.springframework.security.web.header.HeaderWriterFilter@2de23121, org.springframework.security.web.csrf.CsrfFilter@6200f9cb, org.springframework.security.web.authentication.logout.LogoutFilter@79d8407f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1757cd72, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1e66f1f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@e4487af, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5c671d7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d18979, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17f7cd29, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6aaceffd, org.springframework.security.web.session.SessionManagementFilter@4988d8b8, org.springframework.security.web.access.ExceptionTranslationFilter@587e5365, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26b3fd41]
+2020-11-24 16:17:39.212  INFO 31273 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-24 16:17:39.219  INFO 31273 --- [           main] com.example.demo.DemoApplication         : Started DemoApplication in 1.379 seconds (JVM running for 1.674)
+2020-11-24 16:17:49.907  INFO 31273 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-24 16:17:49.907  INFO 31273 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-24 16:17:49.908  INFO 31273 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
